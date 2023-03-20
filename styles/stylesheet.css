@@ -87,3 +87,11 @@ img {
 #active {
     background-color: yellowgreen;
 }
+
+.sectionDisplay {
+    text-align: center;
+    border: 5px solid black;
+    margin: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
