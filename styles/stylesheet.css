@@ -95,3 +95,11 @@ img {
     padding-right: 15px;
     padding-left: 15px;
 }
+
+.videoContent {
+    float: center;
+    width: 70%;
+    max-height: 600px;
+    min-height: 70%;
+    overflow: auto;
+}
