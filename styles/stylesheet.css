@@ -89,8 +89,9 @@ img {
 }
 
 .sectionDisplay {
-    text-align: center;
-    border: 5px solid black;
+    max-width: 40%;
+    max-height: 450px;
+    text-align: left;
     margin: 10px;
     padding-right: 15px;
     padding-left: 15px;
@@ -103,3 +104,4 @@ img {
     min-height: 70%;
     overflow: auto;
 }
+
