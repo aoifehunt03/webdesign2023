@@ -115,7 +115,7 @@ main img {
 .col_detail {
     column-count: 2;
     /* column-gap: 50px; */
-    padding: 2px;
+    padding-left: 40px;
     text-align: justify;
     color: white;
     -webkit-text-stroke: 1px rgb(225, 247, 182);
