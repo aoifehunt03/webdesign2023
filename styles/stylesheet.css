@@ -5,8 +5,8 @@ body {
     width: auto;
     font-family: verdana;
     text-align: justify;
-    color: #b9deab;
-    background-color: #b9deab;
+    color: #cfe6c6;
+    background-color: #cfe6c6;
     margin: auto;
     padding: 20px;
 }
@@ -61,6 +61,7 @@ header {
     background-color: black;
     height: 100px;
     width: 100%;
+    padding: 10px;
 }
 
 footer {
@@ -88,15 +89,6 @@ img {
     background-color: yellowgreen;
 }
 
-.sectionDisplay {
-    max-width: 40%;
-    max-height: 450px;
-    text-align: left;
-    margin: 10px;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
 .videoContent {
     float: center;
     width: 70%;
@@ -105,3 +97,10 @@ img {
     overflow: auto;
 }
 
+.col_detail {
+    column-count: 2;
+    column-rule: 1px solid #cfe6c6;
+    /* column-gap: 50px; */
+    padding: 2px;
+    text-align: justify;
+}
