@@ -23,6 +23,25 @@ h1 {
     padding-top: 0;
 }
 
+h2 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    width: auto;
+    font-family: verdana;
+    text-align: justify;
+    color: #a3e55b;
+    margin: auto;
+}
+
+h3 {
+    color:rgb(230, 255, 185)
+}
+
+section ol {
+    color:rgb(230, 255, 185)
+}
+
 body a {
     color: black;
 }
@@ -33,6 +52,7 @@ body a :hover {
 
 main {
     color: black;
+    float: left;
 }
 
 nav {
@@ -73,6 +93,30 @@ header {
     padding: 0px;
 }
 
+
+
+
+aside {
+    border: 1px solid yellowgreen;
+    float: right;
+    width: 18%;
+    background-color: #242425;
+}
+
+aside ul li {
+    list-style-type: circle;
+}
+
+aside ul li a {
+    color: rgb(230, 255, 185);
+    text-decoration: none;
+}
+
+
+
+
+
+
 footer {
     margin: 0;
     padding: 0;
@@ -106,6 +150,7 @@ main img {
 
 .videoContent {
     float: center;
+    padding-left: 50px;
     width: 70%;
     max-height: 600px;
     min-height: 70%;

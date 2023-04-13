@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- 
+    author : aoife hunt
+    date created : 16 03 2023 
+-->
+
+<html lang="en">
+
+<head>
+    <title>Contact Form</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Contact us, send a query" />
+    <meta name="keywords" content="Contact, Query, email" />
+
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css" />
+
+    <style>
+        body {
+            font-family: sans-serif;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 10px;
+        }
+        main {
+            margin: 15px 200px;
+            padding: 20px;
+            border: black solid 1px;
+            background: rgb(239, 255, 206);
+            min-height: 500px;
+        }
+        header p {
+            font-style: italic;
+            text-align: center;
+            font-weight: 900;
+        }
+        .required {
+            font-weight: bold;
+            color: red;
+        }
+        label {
+            float: left;
+            width: 112px;
+            padding-right: 10px;
+            text-align: right;
+        }
+        input {
+            margin-left: 1em;
+            margin-bottom: .5em;
+            width: 300px;
+        }
+
+        input[type="checkbox"] { width: 15px; }
+        input[type="radio"] { width: 10px; }
+
+        #button, #reset 
+        {
+            margin-top: .5em;
+            width: 8em;
+            background-color: yellowgreen;
+            border: 2px solid black;
+        }
+
+        /* left off the video at 7 minutes left */
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <nav style="text-align: right; padding-right: 20px;"> 
+            <a href="index.html" style="text-decoration:none;">
+                <img style="float:left; margin-left: 20px; margin-top: 10px; margin-right:10px;" src="images/logo_two.png" alt="logo" width="60" height="60">
+            </a>
+
+        <p> Any song upload requests please Complete and Submit </p>
+        <p> We will notify you once the new song is uploaded </p>
+    </header>
+
+    <main style="width: 70%;">
+        <section>
+            <h3 style="color: black;">Please enter the following information:</h3>
+            <form action="http:/foo.com" method="post">
+                <label for="first_name">First name:<span class="required">*</span></label>
+                <input type="text" name="first_name" id="first_name" autofocus required> <br>
+                <label for="last_name">Last name:<span class="required">*</span></label>
+                <input type="text" name="last_name" id="last_name" required> <br>
+                <label for="email">Email:<span class="required">*</span></label>
+                <input type="email" name="email" id="email" required placeholder="johndoe@example.com"> <br>
+
+                <label for="mediatype">Media Type:<span class="required">*</span></label>
+                <fieldset>
+                    <input type="checkbox" id="chord" name="chord" value="chord" checked> Chord Form <br>
+                    <input type="checkbox" id="tab" name="tab" value="tab"> Tab Form <br>
+                </fieldset> <br>
+
+                <label for="message">Query      :   </label>
+                <textarea cols="50" rows="6"
+                id="message" name="message" placeholder="Your message must be less than 200 characters" data-maxlength="200"> </textarea> <br>
+                <input type="submit" name="submit" id="button" value="Submit">
+                <input type="reset" name="reset" id="reset">
+            </form>
+
+            <p style="margin-left: 138px"> <span class="required">*</span> <em> indicates a required field</em> </p>
+
+        </section>
+    </main>    
+
+</body>
+
+</html>
