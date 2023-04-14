@@ -93,9 +93,6 @@ header {
     padding: 0px;
 }
 
-
-
-
 aside {
     border: 1px solid yellowgreen;
     float: right;
@@ -111,7 +108,6 @@ aside ul li a {
     color: rgb(230, 255, 185);
     text-decoration: none;
 }
-
 
 footer {
     margin: 0;
