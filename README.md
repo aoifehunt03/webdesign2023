@@ -9,4 +9,4 @@ Under this, there is a list view of 7 sample songs they can learn based on their
 
 In the index/home page there is also an option at the top to submit a song request that they wish to learn from the website. This link takes them to a submittion form that they can fill out and input their option of song with the chord or tab version that they wish to have uploaded.
 
-The logo in the header of the webpages also contain an anchor to the home page in the event that they wish for a quick and easy return to the main page.
+The logo in the header of the submission form also contains an anchor to the home page in the event that they wish for a quick and easy return to the main page.
