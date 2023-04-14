@@ -147,6 +147,7 @@ main img {
 .videoContent {
     float: center;
     padding-left: 50px;
+    padding-bottom: 50px;
     width: 70%;
     max-height: 600px;
     min-height: 70%;
@@ -161,4 +162,12 @@ main img {
     color: white;
     -webkit-text-stroke: 1px rgb(225, 247, 182);
     text-shadow: 0px 1px 4px #415e37;
+}
+
+.dotted {
+    width: 90%;
+    border-width: 2px;
+    color:#a3e55b;
+    border-style: dotted;
+    text-align: center;
 }
